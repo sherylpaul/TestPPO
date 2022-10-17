@@ -9,7 +9,9 @@ grid_world_test.py and agent_learning_test.py correspond to single agent ppo
 
 (They are the same otherwise)
 
-in both(grid_world.py and grid_world_test.py), you can change the map name to '50x50_map' or '100x100_map' - pkl files are available
+in both(grid_world.py and grid_world_test.py), you can change the 'map_name' to '50x50_map' or '100x100_map' - pkl files are available
+self.n_agents in grid_world_test.py = number of agents
+You need to change the path of the pkl file when you download and run it on your machine
 
 Issue I'm running into:
 1.) 50x50 and 100x100 work fine for single agent
